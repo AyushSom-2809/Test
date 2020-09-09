@@ -15,9 +15,12 @@ namespace add
             Number1 = Convert.ToInt32(Console.ReadLine());  
             Console.WriteLine("please enter the Number2");  
             Number2 = Convert.ToInt32(Console.ReadLine());  
-            int Result;  
-            Result = Number1 + Number2;  
-            Console.WriteLine("Sum of two Numbers:" + Result.ToString());  
+            int Sum;
+            int Product;
+            Sum = Number1 + Number2; 
+            Product = Number1*Number2;
+            Console.WriteLine("Sum of two Numbers:" + Sum.ToString()); 
+            Console.WriteLine("Product of two Numbers:" + Product.ToString());  
             Console.ReadLine();  
         }  
     }  
