@@ -27,7 +27,7 @@ namespace add
             Console.WriteLine("Division of two Numbers:" + div.ToString());
             Console.ReadLine();  
         }  
-    }  
-}  
+    }    
 
 // i made a slight change in newbranch lets see what happens.
+
